@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "skeletor-docs-poc",
+  "description": "Proof of Concept for Gatsby Documentation site",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Anna Scheuler",
   "dependencies": {
     "gatsby": "^2.0.40",
     "gatsby-image": "^2.0.19",
@@ -36,6 +36,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/scheul93/skeletor-docs-poc"
   }
 }
