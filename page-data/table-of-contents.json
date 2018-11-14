@@ -1,0 +1,22 @@
+{
+    "configuration": [
+        {
+            "header": "Documentation",
+            "pages": [
+                {
+                    "title": "Getting Started",
+                    "path": "panda.md"
+                }
+            ]
+        },
+        {
+            "header": "Documentation 2",
+            "pages": [
+                {
+                    "title": "Getting Started",
+                    "path": "panda.md"
+                }
+            ]
+        }
+    ]
+}

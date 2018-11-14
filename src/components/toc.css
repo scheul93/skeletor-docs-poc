@@ -1,0 +1,42 @@
+.table-of-contents {
+    padding-top: 1em;
+}
+
+.toc__list {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.toc__list-item {
+    margin-bottom: 0;
+}
+
+.toc__list-item--active {
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-right: none;
+}
+
+
+
+.toc__list-header {
+    background-color: #554A9C;
+    color: white;
+    padding: .25em;
+}
+
+.toc__link {
+    color: #333333;
+    display: block;
+    padding: .25em;
+    text-decoration: none;
+}
+
+.toc__link:hover {
+    background-color: #d9d9d9;
+}
+
+.toc__list-item--active .toc__link:hover {
+    background-color: white;
+}
