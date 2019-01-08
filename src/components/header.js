@@ -5,7 +5,7 @@ import Image from './image';
 import './header.css';
 
 const Header = ({ siteTitle }) => (
-  <div className="header">
+  <header className="header">
     <div className="header__content">
       <h1 className="home-link">
         <a href="/">
@@ -30,7 +30,7 @@ const Header = ({ siteTitle }) => (
         </ul>
       </nav>
     </div>
-  </div>
+  </header>
 )
 
 export default Header

@@ -32,7 +32,7 @@ Plugins can be installed by listing them as [devDependencies](https://docs.npmjs
 
 A Skeletor configuration object consists of an array of `tasks`. A `task` consists of either `plugins` or `subTasks`. A `subTask` is itself a `task` with its own plugins or `subTask` properties.
 
-//TODO: put in a sample configuration
+See [Sample Skeletor Config](./skeletor-config) for an example.
 
 ### Automatic configuration via Skeletor Wizard
 Yes, there is an auto-config generator called [Skeletor Wizard](https://github.com/deg-skeletor/skeletor-wizard) that is in active development. Yes, it kind of works already. No, we would not recommend using it in production quite yet. Sorry, Charlie.

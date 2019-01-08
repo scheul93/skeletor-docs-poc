@@ -69,9 +69,8 @@ th {
 	background-color: white;
 	border-right: 1px solid lightgrey;
 	border-left: 1px solid lightgrey;
-	/* height: 100%; */
-	padding: 1em 1em 0;
-	width: 75%;
+	padding: 1em;
+	width: 100%;
 }
 
 .content--full-width {

@@ -5,6 +5,7 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
 import TableOfContents from './toc';
+import Footer from './footer';
 // import './reset.css';
 import './layout.css'
 
@@ -31,15 +32,13 @@ const Layout = ({ children, shouldShowToC, currentPageTitle }) => (
           <html lang="en" />
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <div
-          className="main-content"
-        >
-          {shouldShowToC ? <TableOfContents currentPageTitle={currentPageTitle} /> : null }
-          <div className={shouldShowToC ? 'content' : 'content content--full-width'}>
-            {children}
-          </div>
-          
-        </div>
+        <main className="main-content">
+			{shouldShowToC ? <TableOfContents currentPageTitle={currentPageTitle} /> : null }
+			<section className={shouldShowToC ? 'content' : 'content content--full-width'}>
+				{children}
+			</section> 
+        </main>
+		<Footer></Footer>
       </>
     )}
   />

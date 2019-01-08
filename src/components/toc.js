@@ -36,7 +36,7 @@ const TableOfContents = props => {
     }
 
     return (
-        <div className="table-of-contents">
+        <aside className="table-of-contents">
             {config.map(section => {
                 return (
                     <ul className="toc__list" key={section.header}>
@@ -45,7 +45,7 @@ const TableOfContents = props => {
                     </ul>
                 )
             })}
-        </div>
+        </aside>
     )
 }
   
