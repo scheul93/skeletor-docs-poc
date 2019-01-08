@@ -8,7 +8,9 @@ Skeletor and Skeletor plugins are installed and managed via [npm](https://www.np
 ## Installing the CLI
 In order to run Skeletor from the command line, you will want to install the [Skeletor CLI](https://www.npmjs.com/package/@deg-skeletor/cli) globally via NPM:
 
-<pre>npm install -g @deg-skeletor/cli</pre>
+``` bash
+npm install -g @deg-skeletor/cli
+```
 
 _You may need to prefix this command with `sudo` (Mac OS, *nix, etc.) or run your command shell as Administrator (Windows)._
 

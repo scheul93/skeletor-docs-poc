@@ -19,9 +19,9 @@ The Skeletor ecosystem has a [sample plugin project](https://github.com/deg-skel
 ## Testing Plugin during Development
 To install a Skeletor plugin that is currently under development on your local machine, you will need to make use of npm's ability to symlink a local package folder.
 
-First, run npm link in a terminal within the folder of the local plugin to create a symlink in the global node_modues/ folder.
+First, run `npm link` in a terminal within the folder of the local plugin to create a symlink in the global node_modues/ folder.
 
-Next, run npm link [plugin-package-name] within a project's folder to create a symlink from the globally-installed plugin to the node_modules/ of the project.
+Next, run `npm link [plugin-package-name]` within a project's folder to create a symlink from the globally-installed plugin to the node_modules/ of the project.
 
 Your local plugin should now be installed to the project and can be added to the task configuration.
 

@@ -5,7 +5,7 @@ date: "2018-11-09"
 
 Here is an example Skeletor configuration (the contents of the `skeletor.config.js` file). Below, we will walk through in more detail what this configuration means.
 
-```
+```javascript
 module.exports = {
 	tasks: [
 		{
@@ -87,7 +87,7 @@ module.exports = {
 ## Setting up a Skeletor Config
 A Skeletor configuration file should export an object that has a `tasks` property. Each task object should have a name and that will be the command name that Skeletor cli runs. Each task will also have a list of subtasks. These subtasks represent a Skeletor plugin with a specific function.
 
-```
+```javascript
 // skeletor.config.js
 module.exports = {
 	tasks: [
@@ -109,7 +109,7 @@ With this configuration, plus Skeletor cli, you could type `skel task-1` to run 
 ### A SubTask Configuration
 Each subtask is defined with a name property which is the plugin name. Each subtask also has a config property that contains whatever configuration items the specific plugin needs.
 
-```
+```javascript
 //Subtask Object
 {
     name: 'static-assets', 

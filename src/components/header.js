@@ -19,9 +19,6 @@ const Header = ({ siteTitle }) => (
             <Link to="/documentation/getting-started" className="primary-nav__link">Getting Started</Link>
           </li>
           <li className="primary-nav__list-item">
-            <Link to="/documentation/configuring-tasks" className="primary-nav__link">Configuring Tasks</Link>
-          </li>
-          <li className="primary-nav__list-item">
             <Link to="/ecosystem/plugins" className="primary-nav__link">Plugins</Link>
           </li>
           <li className="primary-nav__list-item">
