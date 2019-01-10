@@ -1,0 +1,6 @@
+p {
+	margin: 0 0 var(--spacing-vertical) 0;
+	&.pad-top-standard {
+		margin-top: var(--spacing-vertical);
+	}
+}

@@ -1,0 +1,30 @@
+:root {
+
+    --color-white: #ffffff;
+    --color-black: #000000;
+
+    --color-grey-light: #D3D3D3;
+    --color-grey-light-10: #f2f2f2;
+    --color-grey-dark: #333333;
+
+
+    --color-purple: #554A9C;
+    --color-purple-dark-10: #383168;
+    --color-purple-dark-20: #262145;
+
+    --color-blue: #3468B2;
+    --color-blue-light: #edf2f8;
+
+    --font-family-primary: 'Open Sans', Oxygen, Helvetica Neue, sans-serif;
+    --font-family-heading: Fjalla One, Helvetica Neue, sans-serif;
+    --base-font-size: 1rem;
+    
+    --spacing-horizontal: 1em;
+	--spacing-vertical: 1.25rem;
+	--spacing-vertical-large: 1.88rem;
+}
+
+@custom-media --small (min-width: 30em);
+@custom-media --small-down (max-width: 30em);
+@custom-media --medium (min-width: 48em);
+@custom-media --large (min-width: 64em);

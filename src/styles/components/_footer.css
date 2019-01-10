@@ -1,0 +1,17 @@
+.footer {
+    background-color: var(--color-black);
+    padding: .5em;
+    text-align: center;
+}
+
+.footer__link {
+    color: var(--color-white);
+
+    &:visited {
+        color: var(--color-white);
+    }
+}
+
+.footer__link:hover {
+    opacity: .8;
+}

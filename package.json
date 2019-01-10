@@ -16,6 +16,7 @@
     "gatsby-transformer-json": "^2.1.7",
     "gatsby-transformer-remark": "^2.2.0",
     "gatsby-transformer-sharp": "^2.1.10",
+    "postcss-easy-import": "^3.0.0",
     "postcss-preset-env": "^6.5.0",
     "prismjs": "^1.15.0",
     "react": "^16.7.0",

@@ -48,8 +48,10 @@ module.exports = {
       resolve: `gatsby-plugin-postcss`,
       options: {
         postCssPlugins: [
+          require(`postcss-easy-import`),
           require(`postcss-preset-env`)({ stage: 0 }),
-          require('autoprefixer')
+          require(`postcss-custom-media`),
+          require('autoprefixer')({browsers: ['last 2 versions', 'iOS > 7']})
         ],
       },
     },

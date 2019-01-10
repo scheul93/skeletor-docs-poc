@@ -1,7 +1,4 @@
-/* @import '_reset.css'; */
-@import '_layout.css';
-
-@import '_header.css';
-@import '_footer.css';
-
-@import '_toc.css';
+@import 'utilities/**.css';
+@import 'basics/**.css';
+@import 'components/**.css';
+@import 'templates/**.css';
