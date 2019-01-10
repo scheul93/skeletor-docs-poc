@@ -6,8 +6,6 @@ import { StaticQuery, graphql } from 'gatsby'
 import Header from './header'
 import TableOfContents from './toc';
 import Footer from './footer';
-// import './reset.css';
-import './layout.css'
 
 const Layout = ({ children, shouldShowToC, currentPageTitle }) => (
   <StaticQuery

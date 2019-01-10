@@ -2,8 +2,6 @@ import React from 'react';
 import { Link } from 'gatsby';
 import Image from './image';
 
-import './header.css';
-
 const Header = ({ siteTitle }) => (
   <header className="header">
     <div className="header__content">
