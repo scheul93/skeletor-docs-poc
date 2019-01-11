@@ -75,6 +75,7 @@ th {
 	background-color: var(--color-white);
 	border-right: 1px solid var(--color-grey-light);
 	border-left: 1px solid var(--color-grey-light);
+	flex-grow: 1;
 	padding: 1em;
 	width: 100%;
 }

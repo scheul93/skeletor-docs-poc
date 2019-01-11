@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import Image from './image';
+import IconImage from './iconImage';
 
 const Header = ({ siteTitle }) => (
 	<header className="header">
 		<div className="header__content">
 			<h1 className="home-link">
 				<a href="/">
-					<Image />
+					<IconImage />
 				</a>
 			</h1>
 			<nav className="nav primary-nav primary-nav--desktop">
