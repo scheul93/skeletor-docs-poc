@@ -80,6 +80,5 @@ On build, the `gatsby-node.js` file defines how pages are created. It uses graph
 ## Still TODO
 
 - Figure out how to dynamically generate a table of contents from the `page-data` directory
-- Post process and auto-prefix CSS
 - Spell-check documentation
 - Figure out how to get list of Skeletor plugins from API (either NPM registry or github apis)
