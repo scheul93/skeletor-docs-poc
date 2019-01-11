@@ -26,7 +26,7 @@ const Image404 = props => (
         }
       }
     `}
-    render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} className="img-404" />}
+    render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} className="img-404" alt="skeletor 404" />}
   />
 )
 export default Image404

@@ -26,7 +26,7 @@ const IconImage = props => (
         }
       }
     `}
-    render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} />}
+    render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="logo" />}
   />
 )
 export default IconImage

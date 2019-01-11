@@ -26,8 +26,8 @@ const config = [
 const TableOfContents = props => {
     function renderLinks(section) {
         return section.subLinks.map((link, index) => (
-            <li className={props.currentPageTitle === link.title ? "toc__list-item toc__list-item--active" : "toc__list-item"} key={index}>
-                <Link to={section.basePath + link.link} className="toc__link">{link.title}</Link>
+            <li className={props.currentPageTitle === link.title ? "toc__list-item toc__list-item--active" : "toc__list-item"} key={index} role="none">
+                <Link to={section.basePath + link.link} className="toc__link" role="menuitem">{link.title}</Link>
             </li>
         ))
     }
@@ -36,7 +36,7 @@ const TableOfContents = props => {
         <aside className="table-of-contents">
             {config.map(section => {
                 return (
-                    <ul className="toc__list" key={section.header}>
+                    <ul className="toc__list" key={section.header} role="menubar" aria-label="content navigation">
                         <li className="toc__list-item toc__list-header">{section.header}</li>
                         {renderLinks(section)}
                     </ul>
