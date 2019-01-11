@@ -2,6 +2,8 @@ import React from 'react';
 import Layout from '../components/layout';
 import Image from '../components/image404';
 
+import '../styles/styles.css';
+
 const NotFoundPage = () => (
   <Layout>
     <h1>NOT FOUND</h1>
