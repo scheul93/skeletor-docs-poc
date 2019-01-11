@@ -7,7 +7,6 @@ const config = [
         basePath: '/documentation',
         subLinks: [
             {title: "Getting Started", link: "/getting-started"},
-            // {title: "Configuring Tasks", link: "/configuring-tasks"},
             {title: "Sample Skeletor Config", link: "/skeletor-config"},
             {title: "Creating Plugins", link: "/creating-plugins"},
             {title: "Using the CLI", link: "/cli"}

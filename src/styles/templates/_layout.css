@@ -40,6 +40,7 @@ pre {
 }
 
 table {
+	margin-bottom: 1rem;
 	width: 100%;
 }
 
@@ -80,4 +81,10 @@ th {
 
 .content--full-width {
 	width: 100%;
+}
+
+@media screen and (--small-down) {
+	.main-content {
+		flex-direction: column;
+	}
 }

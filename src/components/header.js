@@ -10,23 +10,23 @@ const Header = ({ siteTitle }) => (
 					<Image />
 				</a>
 			</h1>
-			<nav className="primary-nav primary-nav--desktop">
-				<ul className="primary-nav__list">
-					<li className="primary-nav__list-item">
-						<Link to="/documentation/getting-started" className="primary-nav__link">Documentation</Link>
+			<nav className="nav primary-nav primary-nav--desktop">
+				<ul className="nav__list primary-nav__list">
+					<li className="nav__list-item primary-nav__list-item">
+						<Link to="/documentation/getting-started" className="nav__link primary-nav__link">Documentation</Link>
 					</li>
-					<li className="primary-nav__list-item">
-						<Link to="/ecosystem/nuts-and-bolts" className="primary-nav__link">Ecosystem</Link>
+					<li className="nav__list-item primary-nav__list-item">
+						<Link to="/ecosystem/nuts-and-bolts" className="nav__link primary-nav__link">Ecosystem</Link>
 					</li>
 				</ul>
 			</nav>
-			<nav className="primary-nav primary-nav--mobile">
-				<ul className="primary-nav__list">
-					<li className="primary-nav__list-item">
-						<Link to="/documentation/getting-started" className="primary-nav__link">Documentation</Link>
+			<nav className="nav primary-nav primary-nav--mobile">
+				<ul className="nav__list primary-nav__list">
+					<li className="nav__list-item primary-nav__list-item">
+						<Link to="/documentation/overview" className="nav__link primary-nav__link">Documentation</Link>
 					</li>
-					<li className="primary-nav__list-item">
-						<Link to="/ecosystem/overview" className="primary-nav__link">Ecosystem</Link>
+					<li className="nav__list-item primary-nav__list-item">
+						<Link to="/ecosystem/overview" className="nav__link primary-nav__link">Ecosystem</Link>
 					</li>
 				</ul>
 			</nav>

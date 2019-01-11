@@ -1,0 +1,34 @@
+.primary-nav {
+    &.primary-nav--mobile {
+        display: none;
+    }
+}
+
+.primary-nav__link {
+    color: var(--color-white);
+
+    &:hover {
+        background-color: var(--color-purple-dark-10);
+    }
+
+    &:active {
+        background-color: var(--color-purple-dark-20);
+    }
+
+    &:visited {
+        color: var(--color-white);
+    }
+}
+
+@media screen and (--small-down) {
+
+    .primary-nav {
+        &.primary-nav--desktop {
+            display: none;
+        }
+
+        &.primary-nav--mobile {
+            display: block;
+        }
+    }
+}

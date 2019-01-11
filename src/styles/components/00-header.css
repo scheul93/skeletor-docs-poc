@@ -1,0 +1,32 @@
+.header {
+    background-color: var(--color-purple);
+}
+
+.header__content {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 60rem;
+}
+
+.home-link {
+    margin: 0;
+    min-width: 3.125rem;
+    width: 3.125rem;
+}
+
+.home-link__link {
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+
+
+
+
+@media screen and (--small-down) {
+    .header {
+        padding: .5em 1em;
+    }
+}

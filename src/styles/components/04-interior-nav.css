@@ -1,0 +1,29 @@
+.interior-nav__link {
+    color: var(--color-purple);
+
+    &:hover {
+        background-color: var(--color-grey-light-10);
+    }
+
+    &:active {
+        background-color: var(--color-grey-light);
+    }
+
+    &:visited {
+        color: var(--color-purple);
+    }
+}
+
+.interior-nav__list {
+    padding-left: 0;
+}
+
+.interior-nav__list-item {
+    text-align: center;
+}
+
+@media screen and (--small) {
+    .interior-nav {
+        display: none;
+    }
+}
